@@ -28,7 +28,7 @@ body {
 }
 
 #home img {
-    width: 50px;
+    width: 80px;
     margin-left: 65px;
 }
 
@@ -41,8 +41,9 @@ header nav ul li {
 }
 header nav ul li a{
     color: black;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
+    
 }
 header nav ul li a:hover {
     background-color: rgb(238, 215, 197);
@@ -53,7 +54,7 @@ header nav ul li a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    column-gap: 10%;
+    column-gap: 5%;
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 65px;
@@ -69,12 +70,12 @@ header nav ul li a:hover {
 }
 
 .intro div h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
 .intro div p {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .intro img {
@@ -91,15 +92,30 @@ header nav ul li a:hover {
     height: 70vh;
     
 }
-.osito-maker h1 {
-    font-size: 1.5rem;  
+.osito-maker-options div p {
+    font-size: 1.5rem;
+
 }
+.osito-maker h1 {
+    font-size: 2rem;
+    font-weight: bold;  
+}
+input[type=radio] {
+    width: 16px;
+    height: 16px;
+}
+input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+}
+
+
 .btn {
     background-color: rgb(238, 215, 197);
     border: black solid 2.5px;
     border-radius: 50%;
     padding: 12px; 
-    margin-top: 10%;
+    margin-top: 20%;
     font-size: 1.25rem;
     margin-bottom: 50px;
 }
@@ -115,15 +131,13 @@ header nav ul li a:hover {
     justify-content: end;
     align-items: center;
     text-align: center;
-    height: 100px;
     background-color: rgb(200, 159, 156);
     /* position: fixed; */
-    margin-top: 2.5%;
-    width: 100%;
 }
 
 .footer ul li a {
     color: black;
+    
 }
 .footer ul li a:hover {
     background-color: rgb(85, 214, 194);
