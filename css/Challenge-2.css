@@ -44,6 +44,10 @@ header nav ul li a{
     font-size: 1.5rem;
     font-weight: bold;
 }
+header nav ul li a:hover {
+    background-color: rgb(238, 215, 197);
+    border-radius: 50%;
+}
 
 .intro {
     display: flex;
@@ -85,7 +89,7 @@ header nav ul li a{
     align-items: center;
     gap: 5%;
     height: 70vh;
-    align-content: space-around;
+    
 }
 .osito-maker h1 {
     font-size: 1.5rem;  
@@ -110,6 +114,10 @@ header nav ul li a{
 
 .footer ul li a {
     color: black;
+}
+.footer ul li a:hover {
+    background-color: rgb(85, 214, 194);
+    border-radius: 50%; 
 }
 
 
