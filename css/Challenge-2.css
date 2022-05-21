@@ -94,8 +94,19 @@ header nav ul li a:hover {
 .osito-maker h1 {
     font-size: 1.5rem;  
 }
-
-
+.btn {
+    background-color: rgb(238, 215, 197);
+    border: black solid 2.5px;
+    border-radius: 50%;
+    padding: 12px; 
+    margin-top: 10%;
+    font-size: 1.25rem;
+    margin-bottom: 50px;
+}
+.btn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
 
 
 .footer {
