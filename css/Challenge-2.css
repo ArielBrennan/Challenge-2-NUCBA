@@ -1,0 +1,118 @@
+* { 
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+list-style: none;
+box-sizing: border-box;
+text-decoration: none;
+font-family: 'Bungee Shade', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+body {
+    background-color: rgb(238, 215, 197);
+}
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(85, 214, 194); 
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+#home img {
+    width: 50px;
+    margin-left: 65px;
+}
+
+.nav-bar {
+    margin-right: 65px;
+}
+header nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+header nav ul li a{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10%;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 65px;
+}
+
+.intro div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+.intro div h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.intro div p {
+    font-size: 1.5rem;
+}
+
+.intro img {
+    filter: brightness(110%);
+    opacity: 0.95;
+}
+
+.osito-maker {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    height: 70vh;
+    align-content: space-around;
+}
+.osito-maker h1 {
+    font-size: 1.5rem;  
+}
+
+
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    background-color: rgb(200, 159, 156);
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer ul li a {
+    color: black;
+}
+
+
+.footer ul li {
+    margin-top: 10px;
+}
