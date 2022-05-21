@@ -118,8 +118,7 @@ header nav ul li a:hover {
     height: 100px;
     background-color: rgb(200, 159, 156);
     /* position: fixed; */
-    left: 0;
-    bottom: 0;
+    margin-top: 2.5%;
     width: 100%;
 }
 
